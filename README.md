@@ -1,1 +1,2 @@
 # jquery_custom_plugin_countdown
+一个完整的jquery自定义插件,包含自定义函数调用,元素变量保存,防二次初始化
