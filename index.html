@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>计时器测试</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<script src="jquery.js"></script>
+		<script src="jquery.countdown.js"></script>
+	</head>
+
+	<body>
+		<button id="btn_show_time" class="btn_show_time" time="3">3秒倒计时</button>
+		<button onclick="$('#btn_show_time').countdown('stop')">取消3秒倒计时</button>
+		<script>
+			$(function() {
+				$('#btn_show_time').countdown();
+				//				gd_plugin_init();
+			})
+		</script>
+	</body>
+
+</html>
